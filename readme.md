@@ -30,12 +30,19 @@ Developers can employ this tool to ascertain the external accessibility of the i
 
 
 <h2 style="color: aquamarine">Minimum System Requirements</h2>
+
 1. Operating System: Windows 10/11
+
 2. RAM: 6GB or better
+   
 3. Free Disk Space: 5GB or better
+   
 4. A stable internet connection
+
 5. Access to your Azure SQL Database with your IP Address whitelisted on https://portal.azure.com
+
 6. Have Microsoft ODBC Driver version 17 or 18 installed in your system
+
 
 
 <h4 style="color: darkgreen">Support for Ubuntu Linux Systems will be added in a future update</h4>
