@@ -2,7 +2,7 @@
 <h1 style="color: #3385ff">SQLlet Inspection Suite: AZURE SQL</h1>
 <h2>Version 2.0</h2> 
 <h4 style="color: teal">Release Date: February 08, 2024</h4>
-<h4 style="color: darkred">Version 1.0 has been decommissioned and archived permanently as of this date.</h4>
+<h4 style="color: darkred">Version 1.0, the conceptual test release version, has been decommissioned and archived permanently as of this date.</h4>
 <h4 style="color:green">Virus Scan Result: <a href="https://virusscan.jotti.org/en-US/filescanjob/fsbyn4cch4?fbclid=IwAR3YpTVtxeeQcmqgOD0BVSzypuI0OQg1pfEdFr2DjvVOq-kp04QW28QRaDM">http://tinyurl.com/virusscansqlletazure</a></h4>
 <center>
 <a href="http://tinyurl.com/azuresqllet"><img src="https://i.ibb.co/9ZznVxP/Download-Button-Transparent-Background-PNG.png" alt="Download-Button-Transparent-Background-PNG" border="0" width=200></a>
