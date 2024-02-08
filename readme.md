@@ -30,6 +30,7 @@ Developers can employ this tool to ascertain the external accessibility of the i
 
 
 <h2 style="color: aquamarine">Minimum System Requirements</h2>
+
 1. Operating System: Windows 10/11
 
 2. RAM: 6GB or better
