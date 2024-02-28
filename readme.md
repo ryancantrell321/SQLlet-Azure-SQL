@@ -5,7 +5,7 @@
 <h4 style="color: darkred">Version 1.0, the pre-release version, has been decommissioned and archived permanently as of this date.</h4>
 <h4 style="color:green">Virus Scan Result: <a href="https://virusscan.jotti.org/en-US/filescanjob/fsbyn4cch4?fbclid=IwAR3YpTVtxeeQcmqgOD0BVSzypuI0OQg1pfEdFr2DjvVOq-kp04QW28QRaDM">http://tinyurl.com/virusscansqlletazure</a></h4>
 <center>
-<a href="http://tinyurl.com/azuresqllet"><img src="https://i.ibb.co/9ZznVxP/Download-Button-Transparent-Background-PNG.png" alt="Download-Button-Transparent-Background-PNG" border="0" width=200></a>
+<a href="https://4cvw4d-my.sharepoint.com/:u:/g/personal/ryancantrell321_4cvw4d_onmicrosoft_com/EecAfcVuRYBLha8jar24Zx4BDJONaqhXTq0j2YUMQpf2-Q?e=UhohkR"><img src="https://i.ibb.co/9ZznVxP/Download-Button-Transparent-Background-PNG.png" alt="Download-Button-Transparent-Background-PNG" border="0" width=200></a>
 </center>
 
 <p style="text-align: center">
