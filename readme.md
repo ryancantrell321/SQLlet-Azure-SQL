@@ -1,11 +1,10 @@
 
 <h1 style="color: #3385ff">SQLlet Inspection Suite: AZURE SQL</h1>
-<h2>Version 2.0</h2> 
-<h4 style="color: teal">Release Date: February 08, 2024</h4>
-<h4 style="color: darkred">Version 1.0, the pre-release version, has been decommissioned and archived permanently as of this date.</h4>
-<h4 style="color:green">Virus Scan Result: <a href="https://virusscan.jotti.org/en-US/filescanjob/fsbyn4cch4?fbclid=IwAR3YpTVtxeeQcmqgOD0BVSzypuI0OQg1pfEdFr2DjvVOq-kp04QW28QRaDM">http://tinyurl.com/virusscansqlletazure</a></h4>
+<h2>Version 2.1</h2> 
+<h4 style="color: teal">Release Date: Friday, March 01, 2024</h4>
+<h4 style="color:green">Virus Scan Result: <a href="https://virusscan.jotti.org/en-US/filescanjob/os0fo83tsj">https://tinyurl.com/virusscanazuresqllet</a></h4>
 <center>
-<a href="http://tinyurl.com/azuresqllet"><img src="https://i.ibb.co/9ZznVxP/Download-Button-Transparent-Background-PNG.png" alt="Download-Button-Transparent-Background-PNG" border="0" width=200></a>
+<a href="https://4cvw4d-my.sharepoint.com/:u:/g/personal/ryancantrell321_4cvw4d_onmicrosoft_com/ET9cWbhwhxdGsJKlE7lgSgABr2k30tePI689xcsdrSxkzw?e=YIqcko"><img src="https://i.ibb.co/9ZznVxP/Download-Button-Transparent-Background-PNG.png" alt="Download-Button-Transparent-Background-PNG" border="0" width=200></a>
 </center>
 
 <p style="text-align: center">
@@ -20,6 +19,32 @@ It is designed to be a streamlined and comprehensive tool crafted to assist deve
 <p style="text-align: justify">
 Developers can employ this tool to ascertain the external accessibility of the intended database for their ongoing system development.
 </p>
+
+<h2 style="color:aquamarine">Change Log:</h2>
+<strong>Friday, March 01, 2024 (v2.1):</strong>
+1. Refreshed the User Interface with a minimalistic feel.
+2. Added Instance Lock. The execution of multiple instances of this program at the same time will now be prevented to increase memory efficiency.
+3. Added Context Menu for cut, copy, paste and select all.
+4. Revised and refreshed the algorithm for critical functionalities.
+5. Removed the License button and integrated the licensing part in the About section.
+6. Added symmetric cryptography encryption and decryption to secure the program.
+7. Introduced character limit on entry fields in accordance with accepted conventions.
+8. Addition of symmetric cryptography system results in some security providers flagging this program as malicious. In such case, please exclude this program from your antivirus program's detection engine.
+
+<strong>Thursday, February 08, 2024 (v2.0):</strong>
+1. Added ping measurement
+2. Extensively refined Azure SQL Connection algorithm.
+3. Refined the UI.
+4. Refined buggy password visibility mechanism.
+5. Heavily Optimized ODBC driver detection algorithm.
+6. Addition of Documentation, Guidelines and License Information.
+
+<strong>Monday, October 16, 2023 (v1.0 The Pre-Release Version):</strong>
+
+Project commenced with the addition of Azure SQL Connection Algorithm, ODBC Drivers and Basic GUI.
+
+<h4 style="color: darkred">Version 1.0 has been decommissioned and archived permanently as of this date.</h4>
+
 
 <h2 style="color:aquamarine">Key Features</h2>
 
@@ -105,9 +130,7 @@ To use this program, fill in all the blank fields and select an appropriate ODBC
 10. To quit the program, click the 'EXIT' button.
 
 <h2 style="color: aquamarine">SCREENSHOTS</h2>
-<p style="text-align: center">
-<a href="https://imgbox.com/kKeHOBoE" target="_blank"><img src="https://thumbs2.imgbox.com/1d/56/kKeHOBoE_t.png" alt="image host"/></a> <a href="https://imgbox.com/6CrPCw7Q" target="_blank"><img src="https://thumbs2.imgbox.com/28/56/6CrPCw7Q_t.png" alt="image host"/></a> <a href="https://imgbox.com/A0ckUfd7" target="_blank"><img src="https://thumbs2.imgbox.com/81/2c/A0ckUfd7_t.png" alt="image host"/></a> <a href="https://imgbox.com/CQ2ETf9K" target="_blank"><img src="https://thumbs2.imgbox.com/cd/c2/CQ2ETf9K_t.png" alt="image host"/></a>
-</p>
+<p style="text-align: center"><a href="https://imgbox.com/josSmTFr" target="_blank"><img src="https://thumbs2.imgbox.com/e2/da/josSmTFr_t.png" alt="image host"/></a> <a href="https://imgbox.com/tefX40KX" target="_blank"><img src="https://thumbs2.imgbox.com/7c/67/tefX40KX_t.png" alt="image host"/></a> <a href="https://imgbox.com/CklSAWLs" target="_blank"><img src="https://thumbs2.imgbox.com/fc/31/CklSAWLs_t.png" alt="image host"/></a> <a href="https://imgbox.com/eo5h4kqm" target="_blank"><img src="https://thumbs2.imgbox.com/27/4a/eo5h4kqm_t.png" alt="image host"/></a> <a href="https://imgbox.com/ZCKAdbzr" target="_blank"><img src="https://thumbs2.imgbox.com/8c/a3/ZCKAdbzr_t.png" alt="image host"/></a> <a href="https://imgbox.com/jlGd9UmB" target="_blank"><img src="https://thumbs2.imgbox.com/14/fb/jlGd9UmB_t.png" alt="image host"/></a> <a href="https://imgbox.com/htzQ0PzZ" target="_blank"><img src="https://thumbs2.imgbox.com/40/a2/htzQ0PzZ_t.png" alt="image host"/></a> <a href="https://imgbox.com/rqcj3Aru" target="_blank"><img src="https://thumbs2.imgbox.com/2b/80/rqcj3Aru_t.png" alt="image host"/></a></p>
 
 <h2 style="color: aquamarine">LICENSE</h2>
 SQLlet Inspection Suite: AZURE SQL © 2024 by Pandora Dynamics, RYANCANTRELL321 & SHAD0W0RRI0R is licensed under Attribution-NoDerivs 4.0 International (CC BY-ND 4.0).
@@ -117,13 +140,13 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/
 <h2 style="color: aquamarine">CONTACT US</h2>
 
 For any issues, bugs, or queries, feel free to reach out to us at:
-
-**Email: <mailto:pandoradynamics@gmail.com>**
+<strong>
+Email: <a href="mailto:pandoradynamics@gmail.com">pandoradynamics@gmail.com</a>
 \
-**Facebook: https://facebook.com/pandoradynamics22**
+Facebook: <a href="https://facebook.com/pandoradynamics22">https://facebook.com/pandoradynamics22</a>
 \
-**Instagram: https://instagram.com/pandoradynamics22**
-
+Instagram: <a href="https://instagram.com/pandoradynamics22">https://instagram.com/pandoradynamics22</a>
+</strong>
 <h2 style="color: aquamarine">COPYRIGHT</h2>
 
 © 2024 PANDORA DYNAMICS & RYANCANTRELL321. All Rights Reserved for the source code. 

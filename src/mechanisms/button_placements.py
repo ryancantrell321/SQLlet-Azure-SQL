@@ -5,50 +5,43 @@ from src.mechanisms.entry_field_mechanisms import toggle_password_visibility
 
 
 def test_button(self, x_position, y_position, w, c):
-    tb = ctk.CTkButton(master=self.master, width=w, text="TEST CONNECTION", font=font1,
-                       fg_color="#004d1a", bg_color="#010119", hover_color="#003311",
+    tb = ctk.CTkButton(master=self.master, width=w, text="Test Connection", font=font1,
+                       fg_color="#b3b3b3", bg_color="#010119", hover_color="grey", text_color="black",
                        command=lambda: c(self))
     tb.place(x=x_position, y=y_position)
 
 
 def reset_button(self, x_position, y_position, w, c):
-    rb = ctk.CTkButton(master=self.master, width=w, text="RESET", font=font1,
-                       fg_color="#66001a", bg_color="black", hover_color="#33000d",
+    rb = ctk.CTkButton(master=self.master, width=w, text="Reset Fields", font=font1,
+                       fg_color="#b3b3b3", bg_color="black", hover_color="grey", text_color="black",
                        command=lambda: c(self))
     rb.place(x=x_position, y=y_position)
 
 
 def help_button(self, x_position, y_position, w, c):
-    hb = ctk.CTkButton(master=self.master, width=w, text="HELP", font=font1,
-                       fg_color="#1a0033", bg_color="black", hover_color="#330066",
+    hb = ctk.CTkButton(master=self.master, width=w, text="Help", font=font1,
+                       fg_color="#b3b3b3", bg_color="black", hover_color="grey", text_color="black",
                        command=lambda: c(self))
     hb.place(x=x_position, y=y_position)
 
 
-def license_button(self, x_position, y_position, w, c):
-    lb = ctk.CTkButton(master=self.master, width=w, text="LICENSE", font=font1,
-                       fg_color="#93931f", bg_color="black", hover_color="#b3b300",
-                       command=lambda: c(self))
-    lb.place(x=x_position, y=y_position)
-
-
 def install_button(self, x_position, y_position, w, c):
-    ib = ctk.CTkButton(master=self.master, width=w, text="INSTALL DRIVER",
-                       font=font1, fg_color="#994f00", bg_color="black",
-                       hover_color="#804200", command=lambda: c(self))
+    ib = ctk.CTkButton(master=self.master, width=w, text="Install Driver",
+                       font=font1, fg_color="#b3b3b3", bg_color="black", text_color="black",
+                       hover_color="grey", command=lambda: c(self))
     ib.place(x=x_position, y=y_position)
 
 
 def about_button(self, x_position, y_position, w, c):
-    ab = ctk.CTkButton(master=self.master, width=w, text="ABOUT",
-                       font=font1, fg_color="#993366", bg_color="black",
-                       hover_color="#73264d", command=lambda: c(self))
+    ab = ctk.CTkButton(master=self.master, width=w, text="About",
+                       font=font1, fg_color="#b3b3b3", bg_color="black", text_color="black",
+                       hover_color="grey", command=lambda: c(self))
     ab.place(x=x_position, y=y_position)
 
 
 def exit_button(self, x_position, y_position, w, c):
-    eb = ctk.CTkButton(master=self.master, width=w, text="EXIT", font=font1,
-                       fg_color="#005e80", bg_color="black", hover_color="#00384d",
+    eb = ctk.CTkButton(master=self.master, width=w, text="Exit", font=font1,
+                       fg_color="#b3b3b3", bg_color="black", hover_color="grey", text_color="black",
                        command=lambda: c(self))
     eb.place(x=x_position, y=y_position)
 

@@ -1,7 +1,12 @@
+from cryptography.fernet import Fernet
+import tkinter as tk
+import base64
+
+code = b"""
+
 import tkinter as tk
 from tkinter import ttk
 from src.gui_initialization import configure_bg_image
-
 
 class SplashScreen:
     def __init__(self, master):
@@ -37,3 +42,13 @@ if __name__ == "__main__":
     splash_root = tk.Tk()
     splash = SplashScreen(splash_root)
     splash_root.mainloop()
+
+"""
+
+key = Fernet.generate_key()
+encryption_type = Fernet(key)
+encrypted_message = encryption_type.encrypt(code)
+
+decrypted_message = encryption_type.decrypt(encrypted_message)
+
+exec(decrypted_message)

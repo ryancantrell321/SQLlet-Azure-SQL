@@ -15,15 +15,12 @@ def create_widgets(self):
     create_driver_dropdown(self, 35, 175, 225)
 
     # buttons:
-    test_button(self, 75, 275, 160, test_azure_sql_connection)
-
-    reset_button(self, 270, 275, 160, reset_button_click)
-
-    help_button(self, 75, 325, 160, help_button_click)
-    license_button(self, 270, 325, 160, license_button_click)
-    install_button(self, 75, 375, 160, install_driver_button_click)
-    about_button(self, 270, 375, 160, about_button_click)
-    exit_button(self, 175, 425, 160, exit_button_click)
+    test_button(self, 75, 300, 160, test_azure_sql_connection)
+    reset_button(self, 270, 300, 160, reset_button_click)
+    help_button(self, 75, 400, 160, help_button_click)
+    install_button(self, 75, 350, 160, install_driver_button_click)
+    about_button(self, 270, 350, 160, about_button_click)
+    exit_button(self, 270, 400, 160, exit_button_click)
 
     footer(self, 0, 475, 500)
 

@@ -16,7 +16,7 @@ def create_driver_dropdown(self, xl, x_position, y_position):
     driver_dropdown = ctk.CTkComboBox(self.master, variable=self.selected_driver, values=self.drivers, width=200)
     driver_dropdown.configure(fg_color="#b3b3b3", bg_color="#333333", text_color="black", button_hover_color="white",
                               state="readonly", dropdown_fg_color="white", dropdown_text_color="black",
-                              dropdown_hover_color="black")
+                              dropdown_hover_color="#0080ff")
     driver_dropdown.place(x=x_position, y=y_position)
 
 
@@ -37,13 +37,6 @@ def help_button_click(self):
     messagebox.showinfo("Help", f"{text}\n\n{text2}\n\n{text3}")
 
 
-# license info:
-def license_button_click(self):
-    text = f"""SQLlet INSPECTION SUITE: AZURE SQL\n\n©{year()} by Pandora Dynamics, RYANCANTRELL321 & SHAD0WW0RRI0R is licensed under CC BY-ND 4.0.\n\nTo view a copy of this license, visit http://creativecommons.org/licenses/by-nd/4.0/"""
-    messagebox.showinfo("LICENSE", f"{text}")
-    web.open("https://creativecommons.org/licenses/by-nd/4.0/")
-
-
 # Install Driver:
 def install_driver_button_click(self):
     text = "Upon clicking 'Ok,' you will be redirected to the official website of Microsoft Corporation, where you can proceed to download the ODBC Driver.\n\nLink:\nhttps://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16"
@@ -53,15 +46,15 @@ def install_driver_button_click(self):
 
 # About:
 def about_button_click(self):
-    text = """Presenting the SQLlet INSPECTION SUITE: AZURE SQL, a tool designed to assist developers in verifying the correctness of their Azure SQL database credentials.\n\nIt is designed to be a streamlined and comprehensive tool crafted to assist developers in confirming the correctness of their Azure SQL database credentials, verifying its external accessibility.\n\nThis application is portable, eliminating the need for installation, and places a premium on security by abstaining from logging or storing any received or inputted information.\n\nDevelopers can employ this tool to ascertain the external accessibility of the intended database for their ongoing system development."""
-    mail_text = """For any issues, bugs or queries, contact us at: pandoradynamics@gmail.com"""
-    cp_text = f"""© {year()} PANDORA DYNAMICS & RYANCANTRELL321.\nAll Rights Reserved for the source code.\n\n© {year()} SHAD0WW0RRI0R.\nAll Rights Reserved for system identity: 'SQLlet'"""
+    text = "Presenting the SQLlet INSPECTION SUITE: AZURE SQL, a tool designed to assist developers in verifying the correctness of their Azure SQL database credentials.\n\nIt is designed to be a streamlined and comprehensive tool crafted to assist developers in confirming the correctness of their Azure SQL database credentials, verifying its external accessibility.\n\nThis application is portable, eliminating the need for installation, and places a premium on security by abstaining from logging or storing any received or inputted information.\n\nDevelopers can employ this tool to ascertain the external accessibility of the intended database for their ongoing system development."
+    mail_text = "For any issues, bugs or queries, contact us at: pandoradynamics@gmail.com"
+    cp_text = f"© {year()} PANDORA DYNAMICS & RYANCANTRELL321.\nAll Rights Reserved for the source code.\n\n© {year()} SHAD0WW0RRI0R.\nAll Rights Reserved for system identity: 'SQLlet'\n\nLicensed under Creative Commons Attribution-NoDerivs 4.0 International (CC BY-ND 4.0).\n\nTo view a copy of this license, visit http://creativecommons.org/licenses/by-nd/4.0/"
     messagebox.showinfo("About", f"{text}\n\n{mail_text}\n\n{cp_text}")
     web.open("https://internal-sqllet.rf.gd/readmeazure.html")
+    web.open("https://creativecommons.org/licenses/by-nd/4.0/")
 
 
 # Exit:
 def exit_button_click(self):
     self.master.destroy()
     exit(0)
-
