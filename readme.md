@@ -3,6 +3,9 @@
 <h2>Version 2.1</h2> 
 <h4 style="color: teal">Release Date: Friday, March 01, 2024</h4>
 <h4 style="color:green">Virus Scan Result: <a href="https://virusscan.jotti.org/en-US/filescanjob/os0fo83tsj">https://tinyurl.com/virusscanazuresqllet</a></h4>
+
+<img alt="GitHub Downloads (all assets, all releases)" src="https://github.com/ryancantrell321/SQLlet-Azure-SQL/total">
+
 <center>
 <a href="https://4cvw4d-my.sharepoint.com/:u:/g/personal/ryancantrell321_4cvw4d_onmicrosoft_com/ET9cWbhwhxdGsJKlE7lgSgABr2k30tePI689xcsdrSxkzw?e=YIqcko"><img src="https://i.ibb.co/9ZznVxP/Download-Button-Transparent-Background-PNG.png" alt="Download-Button-Transparent-Background-PNG" border="0" width=200></a>
 </center>
